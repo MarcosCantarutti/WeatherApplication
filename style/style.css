@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #0d6efd;
+  flex-direction: column;
 }
 
 .container {
@@ -63,5 +64,9 @@ form {
 
 .weather-info span {
   font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
   font-weight: bold;
 }
